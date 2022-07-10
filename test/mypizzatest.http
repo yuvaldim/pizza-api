@@ -1,0 +1,11 @@
+
+###
+POST https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/orders/
+content-type: application/json
+
+{
+    "pizzaId":1,"address":"221B Baker Street"
+}
+
+###
+GET https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/pizzas/2/
