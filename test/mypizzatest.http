@@ -9,3 +9,18 @@ content-type: application/json
 
 ###
 GET https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/pizzas/2/
+
+###
+GET https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/orders/
+
+###
+PUT https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/orders/2/
+content-type: application/json
+
+{
+    "pizzaId":3,"address":"22 Tabenkin"
+}
+
+###
+DELETE  https://wdodo4ju4m.execute-api.us-east-1.amazonaws.com/latest/orders/123/
+
